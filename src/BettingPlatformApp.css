@@ -1,0 +1,167 @@
+.section {
+  flex: 2;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-section {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.oddsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.eventColumn {
+  text-align: left;
+}
+
+.eventColumn span {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.input {
+  padding: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.betsSection {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.betList {
+  flex: 1;
+}
+
+.betList h3 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.betList ul, .logSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.betList li, .logSection li {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.eventEndButton {
+  margin-top: 20px;
+}
+
+.eventEndButton button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.eventEndButton button:hover {
+  background-color: #218838;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.betting-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.betting-table th,
+.betting-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.betting-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.betting-table tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.betting-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.logs-title {
+  font-size: 1.25rem;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logs-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.log-item {
+  background-color: #e7f3ff;
+  border: 1px solid #b3d8ff;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  color: #004085;
+  font-size: 0.95rem;
+}
